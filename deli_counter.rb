@@ -25,6 +25,6 @@ def now_serving(other_deli)
   puts "There is nobody waiting to be served!"
 else
   puts "Currently serving #{other_deli.shift}."
-  # other_deli.shift
+  # second option other_deli.shift
 end
 end
